@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="testngTest.FaceBook_2">
+        <methods>
+          <include name="goToSignUpForm"/>
+          <include name="terms"/>
+          <include name="clearPomObj"/>
+          <include name="afterMethod"/>
+          <include name="privacyPolicy"/>
+          <include name="lunchTheBrowse"/>
+          <include name="closedBrowser"/>
+        </methods>
+      </class> <!-- testngTest.FaceBook_2 -->
+      <class name="testngTest.FaceBook_1">
+        <methods>
+          <include name="lunchTheBrowse"/>
+          <include name="goToSignUpForm"/>
+          <include name="clearPomObj"/>
+          <include name="privacyPolicy"/>
+          <include name="terms"/>
+          <include name="afterMethod"/>
+          <include name="closedBrowser"/>
+        </methods>
+      </class> <!-- testngTest.FaceBook_1 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FireFoxTest(failed)">
+    <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="testngTest.FaceBook_2">
+        <methods>
+          <include name="goToSignUpForm"/>
+          <include name="terms"/>
+          <include name="clearPomObj"/>
+          <include name="afterMethod"/>
+          <include name="privacyPolicy"/>
+          <include name="lunchTheBrowse"/>
+          <include name="closedBrowser"/>
+        </methods>
+      </class> <!-- testngTest.FaceBook_2 -->
+      <class name="testngTest.FaceBook_1">
+        <methods>
+          <include name="lunchTheBrowse"/>
+          <include name="goToSignUpForm"/>
+          <include name="clearPomObj"/>
+          <include name="privacyPolicy"/>
+          <include name="terms"/>
+          <include name="afterMethod"/>
+          <include name="closedBrowser"/>
+        </methods>
+      </class> <!-- testngTest.FaceBook_1 -->
+    </classes>
+  </test> <!-- FireFoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
